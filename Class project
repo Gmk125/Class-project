@@ -1,0 +1,26 @@
+import arcade
+=Comp151Window.Comp151Window(800,800, "moving demo")
+    window ship=arcade.Spirite("galleon,png")
+    window.ship.center_x = 350
+    window ship.center_y = 350
+    window.coins= arcade.Spirite(" gold-coins-large.png")
+    windowcoins.center_x=random.radient (36)
+    arcade.start_render()
+
+    ship.draw()
+
+    arcade.start_render()
+    ship.draw
+
+    def handle_key_press(window,key,mod):
+        if key == arcade.key.LEFT:
+           window.ship.center_x=
+
+    def comp151_draw(window)
+        arcade.start_render()
+        window,ship.draw()
+        window.ship.draw()
+        window.coins.draw()
+        arcade.finish_render()
+def main():
+    window
